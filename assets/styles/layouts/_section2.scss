@@ -1,0 +1,44 @@
+.section2 {
+    background: url(../img/langage3.jpg) center/cover;
+    padding: 70px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: $color1;
+
+    .intro {
+        padding-bottom: 40px;
+
+        h2 {
+            text-transform: uppercase;
+            font-family: $font2;
+            font-size: 3rem;
+        }
+        p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+
+    .langages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .langage {
+            padding: 25px; 
+            
+            i {
+                font-size: 2rem;
+            }
+            h3 {
+                font-family: $font2;
+                font-size: 1.5rem;
+                padding: 10px 0;
+            }
+            p {
+               font-size: 1.1rem;
+               font-weight: 500; 
+               line-height: 1.5rem;
+            }
+        }
+    }
+}
